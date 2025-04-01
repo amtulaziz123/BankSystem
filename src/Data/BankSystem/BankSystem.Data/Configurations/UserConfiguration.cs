@@ -3,7 +3,7 @@
     using Microsoft.EntityFrameworkCore;
     using Microsoft.EntityFrameworkCore.Metadata.Builders;
     using Models;
-
+//comments
     public class UserConfiguration : IEntityTypeConfiguration<BankUser>
     {
         public void Configure(EntityTypeBuilder<BankUser> builder)
